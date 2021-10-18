@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/drawable/custom_button_viewall.xml" value="0.1625" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/drawable/custom_image_hot_recommened.xml" value="0.21" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/activity_albums.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/activity_list_songs_in_playlists.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/activity_my_songs.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/activity_play_song.xml" value="0.22" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/albums_favorite_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/fragment_discover.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/fragment_my_albums.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/fragment_my_songs.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/hot_recommened_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/playlists_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/song_in_playlists_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/song_list_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/tab1_layout.xml" value="0.25" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/layout/tab2_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidCode/MusicAppCuaVu/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

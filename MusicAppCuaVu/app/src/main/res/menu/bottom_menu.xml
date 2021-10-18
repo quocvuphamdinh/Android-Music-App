@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Discover"
+        android:icon="@drawable/discover"
+        android:id="@+id/nav_discover"/>
+    <item android:title="Albums"
+        android:icon="@drawable/album"
+        android:id="@+id/nav_albums"/>
+    <item android:title="Songs"
+        android:icon="@drawable/mysong"
+        android:id="@+id/nav_mysongs"/>
+</menu>

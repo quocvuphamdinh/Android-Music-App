@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumsActivity"
+    android:orientation="vertical"
+    android:weightSum="10.7"
+    android:background="@color/black">
+
+    
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_weight="9.7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Your Favorite Albums"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginBottom="20dp">
+            <EditText
+                android:id="@+id/edittextTimKiemAlbumsFavor"
+                android:background="#E6000000"
+                android:drawableLeft="@android:drawable/ic_menu_search"
+                android:textColorHint="@color/grey"
+                android:hint="Tìm Kiếm..."
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <ListView
+            android:id="@+id/listviewAlbumsFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:backgroundTint="#529FA8DA" />
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#9FA8DA"
+        android:alpha="0.6"
+        app:menu="@menu/bottom_menu"
+        android:id="@+id/bottomNavigationMusic">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/black">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="3"
+            android:src="@drawable/lofi_music_hot"
+            android:id="@+id/imgHinhHotRecom"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/textviewTenBaiHatHotRecom"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:text="Tên bài hát"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/textviewTenCaSiHotRecom"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:layout_marginLeft="5dp"
+                android:text="Tên ca sĩ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
